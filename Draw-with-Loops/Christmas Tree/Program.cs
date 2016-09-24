@@ -14,7 +14,7 @@ namespace Christmas_Tree
 
             for (int i = 0; i <= n; i++)
             {
-                var stars = new string('*', i);
+                
                 var spaces = new string(' ', n - i);
                 Console.Write(spaces);
                 Console.Write(stars);
